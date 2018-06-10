@@ -1,4 +1,4 @@
-﻿# DynamicsLab Math
+# DynamicsLab Math
 
 This is the DynamicsLab math library for numerically solving generalized n-dimensional ODE systems using the Runge-Kutta method of order 4. 
 
@@ -22,7 +22,9 @@ dlab-ivp.cs holds structures and algorithms for solving ODE systems.
 ## Usage
 Consider the following system:
 ![enter image description here](https://i.imgur.com/5YmzPZe.png?1)
+
 *(Taken from Numerical Analysis 9th edition by Burden and Faires, page 337)*
+
  Note h in the above problem refers to data resolution, the interval of time between data points. In the code below, 0.01 is used instead:
 ```csharp
 //Create an ODE initial value problem
